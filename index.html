@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Task</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+    
+
+
 </head>
 
 <body>
@@ -46,35 +50,176 @@
     </header>
 
     <main>
-        <div style="display: flex; flex-direction: row;">
-            <div class="swiper-section">
-                <div class="swiper-scroll">
-                    <button class="swiper-scroll__btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="39" viewBox="0 0 25 39" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z"
-                                fill="#33A9FF" />
-                        </svg>
-                    </button>
-                    <div class="swiper-scroll__text">Scroll to catalog</div>
-                </div>
-                <div class="swiper-inner-container">
-                    <div class="swiper-text">
-                        <span>Новое поступление</span>
-                        <div class="swiper-text__title">Лучшие товары от компании Dell</div>
-                        <div>
-                            <button class="swiper-more-btn"><svg width="12" height="11" viewBox="0 0 12 11" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M7.40709 4.31052L4.70812 1.63029L6.22629 0.0933748L11.5305 5.3976L6.22629 10.7018L4.70812 9.18366L7.40709 6.46595H0.978291V4.31052H7.40709Z"
-                                        fill="white" />
-                                </svg>
-                            </button>
+        <div style="display: flex; flex-direction: row; position: relative;">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="swiper-section">
+                            <div class="swiper-scroll">
+                                <button class="swiper-scroll__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="39" viewBox="0 0 25 39"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z"
+                                            fill="#33A9FF" />
+                                    </svg>
+                                </button>
+                                <div class="swiper-scroll__text">Scroll to catalog</div>
+                            </div>
+                            <div class="swiper-inner-container">
+                                <div class="swiper-text">
+                                    <span>Новое поступление</span>
+                                    <div class="swiper-text__title">Лучшие товары от компании Dell</div>
+                                    <div>
+                                        <button class="swiper-more-btn"><svg width="12" height="11" viewBox="0 0 12 11"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.40709 4.31052L4.70812 1.63029L6.22629 0.0933748L11.5305 5.3976L6.22629 10.7018L4.70812 9.18366L7.40709 6.46595H0.978291V4.31052H7.40709Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <img class="swiper-laptop-img" src="./images/Новое фото.png" alt="Ноутбук DELL">
+                            </div>
                         </div>
                     </div>
-                    <img class="swiper-laptop-img" src="./images/Новое фото.png" alt="Ноутбук DELL">
+                    <div class="swiper-slide">
+                        <div class="swiper-section">
+                            <div class="swiper-scroll">
+                                <button class="swiper-scroll__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="39" viewBox="0 0 25 39"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z"
+                                            fill="#33A9FF" />
+                                    </svg>
+                                </button>
+                                <div class="swiper-scroll__text">Scroll to catalog</div>
+                            </div>
+                            <div class="swiper-inner-container">
+                                <div class="swiper-text">
+                                    <span>Новое поступление</span>
+                                    <div class="swiper-text__title">Лучшие товары от компании Dell</div>
+                                    <div>
+                                        <button class="swiper-more-btn"><svg width="12" height="11" viewBox="0 0 12 11"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.40709 4.31052L4.70812 1.63029L6.22629 0.0933748L11.5305 5.3976L6.22629 10.7018L4.70812 9.18366L7.40709 6.46595H0.978291V4.31052H7.40709Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <img class="swiper-laptop-img" src="./images/Новое фото.png" alt="Ноутбук DELL">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-section">
+                            <div class="swiper-scroll">
+                                <button class="swiper-scroll__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="39" viewBox="0 0 25 39"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z"
+                                            fill="#33A9FF" />
+                                    </svg>
+                                </button>
+                                <div class="swiper-scroll__text">Scroll to catalog</div>
+                            </div>
+                            <div class="swiper-inner-container">
+                                <div class="swiper-text">
+                                    <span>Новое поступление</span>
+                                    <div class="swiper-text__title">Лучшие товары от компании Dell</div>
+                                    <div>
+                                        <button class="swiper-more-btn"><svg width="12" height="11" viewBox="0 0 12 11"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.40709 4.31052L4.70812 1.63029L6.22629 0.0933748L11.5305 5.3976L6.22629 10.7018L4.70812 9.18366L7.40709 6.46595H0.978291V4.31052H7.40709Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <img class="swiper-laptop-img" src="./images/Новое фото.png" alt="Ноутбук DELL">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-section">
+                            <div class="swiper-scroll">
+                                <button class="swiper-scroll__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="39" viewBox="0 0 25 39"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z"
+                                            fill="#33A9FF" />
+                                    </svg>
+                                </button>
+                                <div class="swiper-scroll__text">Scroll to catalog</div>
+                            </div>
+                            <div class="swiper-inner-container">
+                                <div class="swiper-text">
+                                    <span>Новое поступление</span>
+                                    <div class="swiper-text__title">Лучшие товары от компании Dell</div>
+                                    <div>
+                                        <button class="swiper-more-btn"><svg width="12" height="11" viewBox="0 0 12 11"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.40709 4.31052L4.70812 1.63029L6.22629 0.0933748L11.5305 5.3976L6.22629 10.7018L4.70812 9.18366L7.40709 6.46595H0.978291V4.31052H7.40709Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <img class="swiper-laptop-img" src="./images/Новое фото.png" alt="Ноутбук DELL">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-section">
+                            <div class="swiper-scroll">
+                                <button class="swiper-scroll__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="39" viewBox="0 0 25 39"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z"
+                                            fill="#33A9FF" />
+                                    </svg>
+                                </button>
+                                <div class="swiper-scroll__text">Scroll to catalog</div>
+                            </div>
+                            <div class="swiper-inner-container">
+                                <div class="swiper-text">
+                                    <span>Новое поступление</span>
+                                    <div class="swiper-text__title">Лучшие товары от компании Dell</div>
+                                    <div>
+                                        <button class="swiper-more-btn"><svg width="12" height="11" viewBox="0 0 12 11"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M7.40709 4.31052L4.70812 1.63029L6.22629 0.0933748L11.5305 5.3976L6.22629 10.7018L4.70812 9.18366L7.40709 6.46595H0.978291V4.31052H7.40709Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <img class="swiper-laptop-img" src="./images/Новое фото.png" alt="Ноутбук DELL">
+                            </div>
+                        </div>
+                    </div>
+                    ...
                 </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-next"></div>
             </div>
+
             <a class="deal-container" href="#">
                 <div class="deal-text">Выгодное предложение от Dell</div>
             </a>
@@ -85,6 +230,9 @@
     <footer>
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./script/swiper.js"></script>
 </body>
 
 </html>

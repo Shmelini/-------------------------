@@ -72,6 +72,46 @@ body {
     cursor: pointer;
 }
 
+.swiper {
+    width: 1411px;
+    position: static;
+}
+
+.swiper .swiper-pagination {
+    position: absolute;
+    bottom: 169px;
+    left: 67.55%;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.swiper .swiper-pagination .swiper-pagination-bullet {
+    width: 5px;
+    height: 5px;
+    margin-bottom: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.swiper .swiper-pagination .swiper-pagination-bullet-active {
+    width: 9px;
+    height: 9px;
+    background-color: #292D32;
+}
+
+.swiper .swiper-button-next {
+    position: absolute;
+    top: 73.8%;
+    right: 21%
+}
+
+.swiper .swiper-button-next::after {
+    content: url(../images/Vector\ 2.svg);
+
+}
+
 .swiper-section {
     /* display: flex;
     flex-direction: row; */
