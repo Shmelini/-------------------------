@@ -152,7 +152,7 @@ body {
 .swiper-more-btn {
     position: relative;
     margin-top: 60px;
-    padding: 5px 6px 1px 7px ;
+    padding: 5px 6px 1px 7px;
     width: 55px;
     height: 55px;
     background-color: #33A9FF;
@@ -175,4 +175,26 @@ body {
 
 .swiper-laptop-img {
     margin-top: 32px;
+}
+
+.deal-container {
+    text-decoration: none;
+    width: 509px;
+    height: 684px;
+    background-color: #F9F9F9;
+    background-image: url(../images/image\ 23.png);
+    background-repeat: no-repeat;
+}
+
+.deal-text {
+    margin-top: 321px;
+    margin-left: 40px;
+    width: 181px;
+    color: #292D32;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129%;
+    text-decoration: none;
 }
