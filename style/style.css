@@ -1,0 +1,178 @@
+body {
+    width: 1920px;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-shrink: 0;
+    height: 123px;
+    margin: 0px 260px 0px 260px;
+}
+
+.header-logo {
+    height: 70px;
+    margin-right: 60px;
+
+}
+
+.header-nav li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 45px;
+}
+
+.header-nav ul:nth-child(2),
+.header-nav ul:nth-child(3) {
+    margin-left: 1px;
+}
+
+.header-nav a {
+    color: #292D32;
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.search {
+    padding: 0;
+    margin-left: 49.77px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header-btns-list {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-bottom: -3px;
+}
+
+.header-btns-list__btn-container:not(:last-child) {
+    margin-right: 30px;
+}
+
+.header-btns-list__btn {
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.swiper-section {
+    /* display: flex;
+    flex-direction: row; */
+    position: relative;
+    padding-left: 260px;
+    background-color: #F2F2F2;
+    background-image: url(../images/Dell.svg);
+    background-repeat: no-repeat;
+    background-position: 40.39% 20.1%;
+    height: 683px;
+    width: 1151px;
+}
+
+.swiper-scroll {
+    position: relative;
+    left: -71.5px;
+    top: 414.5px;
+    transform: rotate(-90deg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 168px;
+    color: #838383;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.swiper-scroll button {
+    position: relative;
+    background: none;
+    border: none;
+    padding: 0;
+    transform: rotate(90deg);
+    margin-right: 24.5px;
+}
+
+.swiper-scroll__text {
+    margin-bottom: 1px;
+}
+
+.swiper-inner-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.swiper-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 211px;
+    margin-left: 130px;
+    width: fit-content;
+}
+
+.swiper-text span {
+    color: #838383;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 133.687%;
+}
+
+.swiper-text__title {
+    margin-top: 15px;
+    width: 404px;
+    color: #292D32;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.18em;
+}
+
+.swiper-more-btn {
+    position: relative;
+    margin-top: 60px;
+    padding: 5px 6px 1px 7px ;
+    width: 55px;
+    height: 55px;
+    background-color: #33A9FF;
+    border: none;
+    border-radius: 100%;
+}
+
+.swiper-more-btn:after {
+    content: 'Побробнее';
+    position: absolute;
+    width: fit-content;
+    color: #292D32;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 33px;
+    top: 19.1px;
+}
+
+.swiper-laptop-img {
+    margin-top: 32px;
+}
