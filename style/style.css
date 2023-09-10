@@ -13,7 +13,7 @@
 }
 
 body {
-    width: 1920px;
+    width: 100%;
     font-family: 'Roboto';
     font-style: normal;
 }
@@ -65,6 +65,19 @@ li {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+.burger-btn {
+    background-image: url(./);
+    position: relative;
+    width: 18px;
+}
+
+.burger-btn div {
+    height: 1.5px;
+}
+
+
+
 
 
 .search {
@@ -1289,4 +1302,427 @@ footer {
     font-weight: 400;
     line-height: 150%;
     /* 27px */
+}
+
+
+@media screen and (max-width: 1920px) {
+    .header-content {
+        padding: 0;
+        width: 375px;
+        height: 90px;
+    }
+
+    .header-logo img {
+        height: 60px;
+    }
+
+    .swiper {
+        height: 593px;
+        width: 375px;
+    }
+
+    .swiper-container {
+        width: 375px;
+        flex-direction: column;
+        /* width: max-content; */
+    }
+
+    .swiper-section {
+        width: 375px;
+        background-position: 39% 3%;
+        background-image: url(../images/DellS.svg);
+        padding-left: 0;
+    }
+
+    .swiper-inner-container {
+        flex-direction: column;
+    }
+
+    .swiper-laptop-img {
+        margin-top: 10px;
+        margin-left: 23px;
+        width: 327px;
+        height: 325px;
+    }
+
+    .swiper-text {
+        margin-top: 80px;
+        margin-left: 15px;
+    }
+
+    .swiper-text span {
+        color: #838383;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.687%;
+
+    }
+
+    .swiper-text__title {
+        width: 254px;
+        margin-top: 4px;
+        margin-left: -1px;
+        color: #292D32;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.2em;
+    }
+
+    .swiper-scroll {
+        display: none;
+    }
+
+    .deal-container {
+        width: 376px;
+        height: 196px;
+    }
+
+    .arrow-btn {
+        margin-left: -1px;
+        margin-top: 26px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .arrow-btn::after {
+        content: 'Подробнее';
+        margin-left: 31px;
+        top: 9.1px;
+        color: #292D32;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 200% */
+    }
+
+    .swiper .swiper-button-next {
+
+        right: 34px;
+        top: 70.6%;
+
+    }
+
+    .swiper .swiper-pagination {
+        top: 64.7%;
+        left: 194px;
+    }
+
+    .swiper .swiper-button-next::after {
+        content: url(../images/Vector2S.svg);
+    }
+
+    .swiper .swiper-pagination .swiper-pagination-bullet {
+        width: 3px;
+        height: 3px;
+    }
+
+    .swiper .swiper-pagination .swiper-pagination-bullet-active {
+        width: 5px;
+        height: 5px;
+    }
+
+    .deal-container {
+        background-image: url(../images/image23S.png);
+        background-position: 118px 15px
+    }
+
+    .deal-container .deal-text {
+        margin-top: 59px;
+        margin-left: 15px;
+        width: 144px;
+        color: #292D32;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 26px */
+    }
+
+    .catalog-container {
+        width: 375px;
+        padding: 0;
+    }
+
+    .catalog-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20.47px;
+    }
+
+    .catalog-grid__item-title {
+        margin-top: 118px;
+        padding-left: 15px;
+        width: 272px;
+        color: #292D32;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .catalog-grid__item-text {
+        width: 334px;
+        margin-top: 19px;
+        margin-left: 15px;
+        color: #838383;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%;
+        /* 22.5px */
+    }
+
+    .catalog-grid__item .arrow-btn {
+        margin-top: 29px;
+        margin-left: 14px;
+    }
+
+    .catalog-grid__item {
+        border-radius: 10px;
+        width: 345px;
+        height: 290px;
+    }
+
+    .catalog-grid .catalog-grid__item-laptop {
+        margin-top: -15px;
+        height: 275px;
+    }
+
+    .catalog-grid__item-cat {
+        margin-left: 15px;
+    }
+
+    .catalog-grid__item:first-child {
+
+        margin-bottom: 76px;
+
+    }
+
+    .catalog-grid__item-number {
+        margin-top: 20px;
+        margin-left: 20px;
+        color: #292D32;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 150%;
+        /* 30px */
+    }
+
+    .catalog-grid__item-count {
+        margin-top: 170px;
+        margin-left: 20px;
+        color: var(--Unnamed-Color, #838383);
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.687%;
+        /* 20.053px */
+    }
+
+    .catalog-grid__item-name {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 20px;
+        color: #292D32;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 30px */
+    }
+
+    .catalog-grid__item-img__laptop {
+        width: 302px;
+        top: 15px;
+        left: 21px;
+    }
+
+    .catalog-grid__item-count__laptop {
+        margin-top: 157px;
+    }
+
+    .catalog-grid__item-count__pc {
+        margin-top: 170px;
+    }
+
+    .catalog-grid__item-img__pc {
+        top: 11px;
+        left: 98px;
+    }
+
+    .catalog-grid__item-img__pc img {
+        width: 212px;
+    }
+
+    .catalog-grid__item-count__dellemc {
+        margin-top: 173px;
+        color: var(--Unnamed-Color, #838383);
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 133.687%;
+        /* 24.064px */
+    }
+
+    .catalog-grid__item-count__parts {
+        margin-top: 172px;
+    }
+
+    .catalog-grid__item-img__servers {
+        top: 63px;
+        left: 40px;
+    }
+
+    .catalog-grid__item-img__servers img {
+        width: 264.239px;
+    }
+
+    .catalog-grid__item-img__dellemc {
+        top: 45px;
+        left: 58px;
+    }
+
+    .catalog-grid__item-img__dellemc img {
+        width: 226.602px;
+    }
+
+    .catalog-grid__item-img__parts {
+        width: 253.261px;
+        top: 30px;
+        left: 67px;
+    }
+
+    .benefits-container {
+        width: 375px;
+        background-size: 335px;
+        background-position: 32% 56.8%
+    }
+
+    .benefits-top {
+        margin: 0;
+    }
+
+    .benefits-top__right {
+        margin: 0;
+    }
+
+    .benefits-top__title {
+        margin-top: 206px;
+        color: #292D32;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+        /* 166.667% */
+    }
+
+    .benefits-top__text {
+        width: 339px;
+        margin-top: 21px;
+        color: var(--Unnamed-Color, #838383);
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 22.5px */
+    }
+
+    .benefits-top__title,
+    .benefits-top__text,
+    .benefits-top__arrow-btn {
+        margin-left: 14px;
+    }
+
+    .benefits-top__arrow-btn {
+        margin-top: 31px;
+    }
+
+    .benefits-top__arrow-btn::after {
+        content: 'Оставить заявку';
+    }
+
+    .benefits-top__img {
+        width: 345px;
+        top: 87.5%;
+        left: 75px;
+    }
+
+    .benefits_cards-list {
+        margin-left: -2px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .benefits_card-item {
+        height: 211px;
+        width: 345px;
+        border-radius: 10px;
+    }
+
+    .benefits_cards-list .benefits_card-item {
+        background-image: url(../images/Vector34S.svg);
+        background-position: 222px 0px;
+    }
+
+    .benefits_card-item4 {
+        height: 221px;
+    }
+
+    .card-img__container {
+        left: 15px;
+        top: 15px;
+        border-radius: 9px;
+
+    }
+
+    .card-img {
+        width: 30px;
+        border-radius: 9px;
+        padding: 11px 9px 5.6px 11px;
+    }
+
+    .benefits_card-item2 .card-img__container {
+        left: 15px;
+        top: 15px;
+        
+    }
+
+    .benefits_card-item2 .card-img {
+        padding: 10px 9.5px 6.6px 10px;
+    }
+
+    .card-title {
+        color: #FFF;
+        font-family: Euclid Circular A;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .card-text {
+        color: #B7B7B7;
+        font-family: Euclid Circular A;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
 }
